@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@keyframes anim-botao{
+    to{
+        background-color: rgb(32, 32, 150);
+        border: 1px solid rgb(61, 61, 243);
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 750vh;
+    background-color: rgb(12, 12, 12);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited, a{
+    color: #fff;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 6rem;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(3, 3, 3);
+    color: #fff;
+}
+
+header #logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    width: 300px;
+}
+
+header #logo #titulo{
+    text-indent: -9999px;
+}
+
+header nav{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+nav ul li a{
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    color: #fff;
+    padding-bottom: 4px;
+}
+
+nav ul li a::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background-color: #fff;
+    transition: width 0.3s ease-in-out;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+header #botao{
+    float: right;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+#talk{
+    width: 160px;
+    height: 3rem;
+    background-color: rgb(61, 61, 243);
+    outline: none;
+    border: none;
+    color: #fff;
+    border-radius: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    gap: 8px;
+}
+
+#talk i{
+    font-size: 18px;
+}
+
+#botao button{
+    background-color: rgb(61, 61, 243);
+    border: none;
+    transition: background-color 0.4s ease, border 0.4s ease;
+}
+
+#botao button:hover{
+    background-color: rgb(32, 32, 150);
+    border: 1px solid rgb(61, 61, 243);
+}
