@@ -16,7 +16,7 @@
 
 body{
     height: 750vh;
-    background-color: rgb(12, 12, 12);
+    background-color: rgb(3, 3, 3);
 }
 
 a{
@@ -129,4 +129,42 @@ header #botao{
 #botao button:hover{
     background-color: rgb(32, 32, 150);
     border: 1px solid rgb(61, 61, 243);
+}
+
+#content{
+    width: 1300px;
+    height: 733vh;
+    margin: 0 auto;
+    padding-top: 7rem;
+}
+
+.titulo{
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    width: 1190px;
+    height: 10rem;
+}
+
+.titulo h1{
+    font-size: 5rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+.titulo p{
+    text-align: center;
+    margin-top: 11px;
+    font-size: 17.5px;
+}
+
+#content #imagens-forma{
+    margin: 0 auto;
+    width: 936px;
+    height: 990px;
+}
+
+#imagens-forma img{
+    width: 936px;
+    height: 990px;
 }
