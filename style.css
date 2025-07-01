@@ -15,7 +15,7 @@
 }
 
 body{
-    height: 750vh;
+    height: 870vh;
     background-color: rgb(3, 3, 3);
 }
 
@@ -140,7 +140,7 @@ header #botao{
 
 .content2{
     width: 1300px;
-    height: 429.6vh;
+    height: 118.4vh;
     margin: 0 auto;
     padding-top: 4rem;
 }
@@ -319,4 +319,201 @@ header #botao{
 .item p{
   font-size: 0.9rem;
   line-height: 1.5;
+}
+
+#Inner{
+    margin-top: 4rem;
+    background-color: #1D35A1;
+    height: 1100px;
+}
+
+#Inner p{
+  margin-top: 25px;
+  font-size: 15.5px;
+}
+
+.paginas{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 colunas fixas */
+  gap: 2.5rem;
+  padding: 4rem 2rem;
+  background-color: #1d35a1;
+  color: white;
+  justify-items: center;
+  text-align: center;
+}
+
+.pagina{
+  background-color: #111;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 260px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.pagina img{
+  width: 100%;
+  border-bottom: 1px solid #333;
+}
+
+.pagina h4{
+  margin-top: 0.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.pagina:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.9);
+}
+
+#chamada-acao{
+  background-color: #1d35a1;
+  border-radius: 12px;
+  padding: 3rem 2rem;
+  margin: 4rem auto;
+  max-width: 1200px;
+  color: white;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+  margin-top: 192vh;
+  height: 300px;
+}
+
+.conteudo-chamada{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.icone-chamada img{
+  width: 155px;
+  height: 240px;
+  border-radius: 8px;
+  background: white;
+}
+
+.texto-chamada{
+  flex: 1;
+  min-width: 250px;
+}
+
+.texto-chamada h2{
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.texto-chamada p{
+  font-size: 1rem;
+  color: #eaeaea;
+}
+
+.botao-chamada .botao-comprar{
+    background-color: white;
+    color: #2070b1;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 2px solid transparent;
+}
+
+.botao-chamada .botao-comprar:hover{
+    background-color: #1d35a1;
+    color: white;  
+    border: 2px solid white;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid #272727;
+}
+
+.convite-colaboracao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 4rem;
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+.conteudo-convite .subtitulo{
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 0.5rem;
+}
+
+.titulo-principal{
+    font-size: 4rem;
+    font-weight: 800;
+    margin: 0;
+    color: white;
+}
+
+.botao-convite{
+    color: white;
+    padding: 0.8rem 2rem;
+    border-radius: 2rem;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: rgb(61, 61, 243);
+    border: none;
+    transition: background-color 0.4s ease, border 0.4s ease;
+}
+
+.botao-convite:hover{
+    background-color: rgb(32, 32, 150);
+    border: 1px solid rgb(61, 61, 243);
+}
+
+.linha-divisoria{
+    border: none;
+    height: 1px;
+    background-color: #333;
+    margin: 2rem 4rem;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+    flex-wrap: wrap;
+    font-size: 0.999rem;
+    color: #ccc;
+    font-weight: 500;
+}
+
+.rodape p a{
+  transition: color 0.3s ease;
+}
+
+.rodape p a:hover{
+  color: #1D35A1;
+}
+
+.rodape nav a{
+    margin-right: 2rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.rodape nav a:hover{
+    color: #1D35A1;
 }
